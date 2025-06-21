@@ -53,9 +53,10 @@ app.post('/contact', async (req, res) => {
   <img src="https://kubsycsxqsuoevqckjkm.supabase.co/storage/v1/object/public/PCP//logo.png" alt="MetaFlujo Logo" width="120" style="margin-bottom: 30px;" />
 
   <!-- Encabezado -->
-  <h1 style="font-size:28px; background: linear-gradient(to right, #0ea5e9, #a855f7, #ec4899); -webkit-background-clip: text; color:transparent; margin-bottom: 10px;">
-    ¡Gracias por tu propuesta!
-  </h1>
+<h1 style="font-size: 28px; font-weight: bold; color: #ec4899; margin-bottom: 20px;">
+  ¡Gracias por tu propuesta!
+</h1>
+
 
   <p style="font-size:16px; line-height:1.6; max-width:600px; margin: 0 auto 30px;">
     Hemos recibido tu mensaje correctamente y uno de nuestros especialistas se pondrá en contacto contigo muy pronto para agendar una cita personalizada.
@@ -68,19 +69,18 @@ app.post('/contact', async (req, res) => {
     Visitar Metaflujo.mx
   </a>
  <!-- Firma de fundadores y contacto -->
-<div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid #333;">
-  <div style="display: flex; justify-content: center; gap: 80px; flex-wrap: wrap; text-align: center;">
-    <!-- Eliel -->
-    <div>
-      <p style="font-size: 16px; font-weight: bold; color: white;">Eliel Niel Olivera Reyes</p>
-      <p style="font-size: 14px; color: #aaa; margin-top: -4px;">Co-Fundador y Creador del concepto MetaFlujo</p>
-    </div>
-    <!-- Ezequiel -->
-    <div>
-      <p style="font-size: 16px; font-weight: bold; color: white;">Ezequiel Olivera Reyes</p>
-      <p style="font-size: 14px; color: #aaa; margin-top: -4px;">Co-Fundador · Visionario en IA y Automatización</p>
-    </div>
+<!-- Fundadores en bloque -->
+<div style="margin-top: 40px; text-align: center;">
+  <div style="margin-bottom: 20px;">
+    <p style="font-size: 16px; font-weight: bold; margin: 0;">Eliel Niel Olivera Reyes</p>
+    <p style="font-size: 14px; color: #aaa; margin-top: -4px;">Co-Fundador y Creador del concepto MetaFlujo</p>
   </div>
+  <div>
+    <p style="font-size: 16px; font-weight: bold; margin: 0;">Ezequiel Olivera Reyes</p>
+    <p style="font-size: 14px; color: #aaa; margin-top: -4px;">Co-Fundador · Visionario en IA y Automatización</p>
+  </div>
+</div>
+
 
   <!-- Contacto central -->
   <div style="margin-top: 30px; text-align: center;">
