@@ -13,6 +13,12 @@ app.use(express.json());
 const resend = new Resend(process.env.RESEND_API_KEY);
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_ANON_KEY);
 
+// ✅ Ruta de prueba
+app.get('/', (req, res) => {
+  res.json({ status: 'Backend MetaFlujo activo ✅', timestamp: Date.now() });
+});
+
+// POST /contact
 app.post('/contact', async (req, res) => {
   const { nombre, email, mensaje } = req.body;
 
